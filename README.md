@@ -4,11 +4,15 @@ This code was developed using a version of Python 3 and VSCode.
 
 It can be obtained either by downloading zip or by typing git clone https://github.com/mrtonks/twigcodingchallenge.git.
 
+## How to run
+
 To run it you can simply open a terminal window and navigate to the folder that contains the .py file, and type:
 ```
 python -c 'import challenge; challenge.helperPrintArray([1, 2, 3, 4, 5], 3)'
 ```
 The values inside ```challenge.helperPrintArray([1, 2, 3, 4, 5], 3)``` can be changed to any other similar values (array and integer). You must also make sure you have any version of Python 3 installed in your computer.
+
+## Files
 
 The challenge.py file contains two functions:
 1. groupArrayElements
