@@ -39,7 +39,10 @@ def groupArrayElements(a, n):
     for i in range(n):
         # Create a sub-array from the original array using the previously
         # obtained q and r and a "min" function. The "min" function will 
-        # let us know if we have a remainder to add to that sub-array
+        # compare the current iteration value against the remainder and 
+        # return the minimun value. Thus, if iteration value is higher than 
+        # the remainder, the sub-array will only be of quotient size.
+        # Otherwise, the sub-array size will be q + 1.
         array.append(a[i * q + min(i, r):(i + 1) * q + min(i + 1, r)])
 
     return array
