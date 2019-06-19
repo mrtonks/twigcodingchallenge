@@ -19,7 +19,7 @@ The challenge.py file contains two functions:
 2. helperPrintArray
 
 ### groupArrayElements
-This function will take as input an array and an integer (N). It will divide the array into N sub-arrays. It uses the function ```divmod``` to extract the quotient and the remainder from a division. Those two values are used to create chucks from the original array and create the sub-arrays with the correct number of values inside a for-loop. The chucks are appended into another array and finally returned when the loop ends.
+This function will take as input an array of values with lengh >= 0 and a positive integer. It will divide the array into N sub-arrays. It uses the function ```divmod``` to extract the quotient and the remainder from a division. Those two values are used to create chucks from the original array and create the sub-arrays with the correct number of values inside a for-loop. The chucks are appended into another array and finally returned when the loop ends.
 
 ### helperPrintArray
 This function has the only purpose to print the array created by the function __groupArrayElements__.
