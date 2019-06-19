@@ -4,7 +4,7 @@ This code was developed using a version of Python 3 and VSCode.
 
 It can be obtained either by downloading zip or by typing git clone https://github.com/mrtonks/twigcodingchallenge.git.
 
-To run it you can simply open terminal window and navigate to the folder that contains the .py file and type:
+To run it you can simply open a terminal window and navigate to the folder that contains the .py file, and type:
 ```
 python -c 'import challenge; challenge.helperPrintArray([1, 2, 3, 4, 5], 3)'
 ```
