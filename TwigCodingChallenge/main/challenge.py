@@ -18,7 +18,7 @@ conditionals.
 
 Includes a helper function to print the array returned.
 
-Note: Avoided list comprehensions for easy understanding
+Note: Avoided list comprehensions for easy explanation and understanding.
 """
 
 __author__ = 'Jesus Vera'
