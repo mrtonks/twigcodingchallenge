@@ -8,9 +8,9 @@ To run it you can simply open terminal window and navigate to the folder that co
 ```
 python -c 'import challenge; challenge.helperPrintArray([1, 2, 3, 4, 5], 3)'
 ```
-The values can be changed to any other values (array and integer). You must make sure you have any version Python 3 installed in your computer.
+The values inside ```challenge.helperPrintArray([1, 2, 3, 4, 5], 3)``` can be changed to any other similar values (array and integer). You must also make sure you have any version of Python 3 installed in your computer.
 
-This python file contains two functions:
+The challenge.py file contains two functions:
 1. groupArrayElements
 2. helperPrintArray
 
