@@ -1,6 +1,6 @@
 """ Twig Coding Challenge - Grouping Array Elements
 
-The following function is used to divide an array into N 
+The groupArrayElements function is used to divide an array into N 
 sub-arrays. It uses a for loop to append a chunk of the array 
 into another array. 
 
@@ -12,6 +12,7 @@ Note: Avoided list comprehensions for easy understanding
 __author__ = 'Jesus Vera'
 __project__ = 'Grouping Array Elements'
 
+""" Function for diving and array into N arrays """
 def groupArrayElements(a, n):
     # Check if n is type integer and positive
     if not  isinstance(n, int) or n < 0:
